@@ -1,0 +1,105 @@
+/*Style do index:*/
+body {
+    background-color: #000000;
+}
+h1 {
+    color: #ffffffe0;
+}
+ol {
+    color: #ff00d4e0;
+}
+.conteudo{
+    padding: 2%;
+    background-color: #3E065F;
+}
+.conteudo a{
+    padding: 1%;
+    color: #ffae00;
+    text-decoration: none;
+}
+.conteudo a:hover{
+    color: #ffffffe0;
+    transition-duration: 1.5s;
+}
+/*Sugestões*/
+.t{
+    color: #ffffffe0;
+}
+/*Stye de músicas:*/
+h3 {
+    font-size: 3vw;
+    color: #ffae00;
+    text-align: center;
+}
+h2 {
+    color: #ffae00;
+    font-size: 2vw;
+}
+.flexvideo {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(25, 0, 49);
+}
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 1vw;
+}
+.lyrics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.also{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.traducao, .letra{
+    margin: 5vw;
+}
+p {
+    color: #ffffffe0;
+    font-style: italic;
+    font-size: 1.5vw;
+}
+music {
+    color: #ffae00;
+}
+/*Geral:*/
+.logo{
+    border-radius: 50%;
+}
+.socialmedia{
+    width: 30px;
+    height: 30px;
+    padding: 1%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffae00;
+  }
+  
+  .redd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 3.5rem;
+    list-style: none;
+  }
+  
+  .redd a {
+    text-decoration: none;
+    color: #ffffffe0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 5px 25px;
+    border-radius: 1.5rem;
+  }
+  header .redd a:hover{
+      color: #3E065F;
+      transition-duration: 2.5s;
+  }
+

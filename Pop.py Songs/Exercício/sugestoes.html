@@ -1,28 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Envie sua sugestão!</title>
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <img
+      src="https://www.pngitem.com/pimgs/m/282-2822740_transparent-mallet-png-hammer-icon-black-png-download.png"
+      alt="Martelo como logo."
+      width="50"
+      class="logo"
+    />
 
-    <img src="https://www.pngitem.com/pimgs/m/282-2822740_transparent-mallet-png-hammer-icon-black-png-download.png" alt="Martelo como logo." width="50">
-    <ul>
-        <a href="index.html">Página inicial</a>
-        <a href="sugestoes.html">| Sugestôes</a>
-    </ul>
+    <header>
+      <ul class="redd">
+       <li> 
+           <a href="index.html">Página inicial</a> 
+        </li>
+        <li> 
+            <a href="sugestoes.html">Sugestôes</a> 
+        </li>
+      </ul>
+    </header>
+    <h1>Nós de sua sugestão!</h1>
     <form>
-        <label for="nome">Digite o seu nome:</label> <br>
-        <input type="text" id="nome"> <br>
-        <br>
-        <label for="email">Email caso seja necessário entrar em contato:</label> <br>
-        <input type="email" id="email"> <br>
-        <br>
-        <label for="assunto">Quais músicas você deseja ver em nosso site?</label> <br>
-        <textarea name="assunto" id="assunto" cols="30" rows="20"></textarea>
-        <button>Enviar</button>
+      <label for="nome" class="t">Digite o seu nome:</label> <br />
+      <input type="text" id="nome" class="i" /> <br />
+      <br />
+      <label for="email" class="t"
+        >Email caso seja necessário entrar em contato:</label
+      >
+      <br />
+      <input type="email" id="email" class="i" /> <br />
+      <br />
+      <label for="assunto" class="t"
+        >Quais músicas você deseja ver em nosso site?</label
+      >
+      <br />
+      <textarea
+        name="assunto"
+        id="assunto"
+        cols="30"
+        rows="20"
+        class="i"
+      ></textarea>
+      <button>Enviar</button>
     </form>
-</body>
+  </body>
 </html>
