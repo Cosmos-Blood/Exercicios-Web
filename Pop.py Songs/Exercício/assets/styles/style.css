@@ -11,6 +11,8 @@ ol {
 .conteudo{
     padding: 2%;
     background-color: #3E065F;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
 }
 .conteudo a{
     padding: 1%;
@@ -21,10 +23,31 @@ ol {
     color: #ffffffe0;
     transition-duration: 1.5s;
 }
+
 /*Sugestões*/
-.t{
-    color: #ffffffe0;
+#tituloSug{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 40%;
 }
+.contate{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#buttom{
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 92%;
+    justify-content: center;
+
+    width: 55px;
+    height: 25px;
+    border-radius: 40%;
+}
+
 /*Stye de músicas:*/
 h3 {
     font-size: 3vw;
@@ -67,8 +90,22 @@ music {
     color: #ffae00;
 }
 /*Geral:*/
-.logo{
+#main{
+    display: flex;
+}
+#logo{
+    display: flex;
     border-radius: 50%;
+    
+    width: 4vw;
+    height: 4vw;
+}
+#mainTitulo{
+    display: flex;
+    margin-left: 1.5%;
+    margin-top: 0.5%;
+
+    font-size: 3vw;
 }
 .socialmedia{
     width: 30px;
@@ -101,5 +138,8 @@ header {
   header .redd a:hover{
       color: #3E065F;
       transition-duration: 2.5s;
+  }
+  footer{
+      margin-top: 5%;
   }
 
