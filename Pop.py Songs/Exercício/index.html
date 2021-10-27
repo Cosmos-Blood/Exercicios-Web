@@ -6,42 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pop.py Songs</title>
     <link rel="stylesheet" href="./assets/styles/style.css" />
-  </head>
-  <body>
-    <div id="main">
-    <img
-    src="https://www.pngitem.com/pimgs/m/282-2822740_transparent-mallet-png-hammer-icon-black-png-download.png"
-    alt="Martelo como logo."
-    width="50"
-    id="logo"
-  />
-  <h1 id="mainTitulo">Pop.py</h1>
-</div>  
-  <header>
-      <ul class="redd">
-       <li> 
-           <a href="index.html">Página inicial</a> 
-        </li>
-        <li> 
-            <a href="sugestoes.html">Sugestões</a> 
-        </li>
-      </ul>
-    </header>
-    <h1>Músicas:</h1>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-    <div class="conteudo">
-      <ol>
-        <li>
-          <a href="musica1.html">System Of A Down - Chop Suey!</a>
-        </li>
-        <li>
-          <a href="musica2.html" 
-            >Hiroyuki Sawano - You See Big Girl/T:T</a
-          >
-        </li>
-        <li><a href="musica3.html">Echos - 1216</a></li>
-      </ol>
+  </head>
+  <body class="bg-dark">
+
+    <!--NavBar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://www.pngitem.com/pimgs/m/282-2822740_transparent-mallet-png-hammer-icon-black-png-download.png" width="30" height="30" class="d-inline-block align-top rounded-circle" alt="Logo do website">
+      Pop.py Songs
+    </a>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Lista.html">Músicas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="sugestoes.html">Sugestões</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </nav>
+  <!--/NavBar-->
+  <hr>
+
+  <!--Carrossel-->
+  <div class="container-fluid">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.ytimg.com/vi/dyCgA05wDfM/maxresdefault.jpg" class="d-block w-100" alt="Imagem de boas vindas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Boas vindas ao Pop.py Songs!</h5>
+          <p>Encontre o melhor das músicas aqui, sem limitações.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://img.youtube.com/vi/_Drfcw8f3Bs/maxresdefault.jpg" class="d-block w-100" alt="Foto de cantora japonesa">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Compilado de milhões!</h5>
+          <p>O compilado das obras de Hiroyuki Sawano em Attack on Titan ultrapassa mais de 17 Milhões de vizualizações.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.ytimg.com/vi/FdOifXvFq3U/maxresdefault.jpg" class="d-block w-100" alt="Imagem com duas mãos abertas e juntas">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Música Favorita!</h5>
+          <p>Criador do site Pop.py Songs divulga que sua música favorita se chama 1216 da dupla Echos.</p>
+        </div>
+      </div>
+      <div class="carousel-item"> <img src="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2016/10/system-of-a-down-banda-2016-1280x720.jpg" class="d-block w-100" alt="Foto com a banda System Of A Down"> <div class="carousel-caption d-none d-md-block"> <h5>Antiga porém viva!</h5> <p>A banda System Of A Down tem mais dois shows para apresentar em Los Angeles em Fevereiro de 2022.</p> </div> </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+  <!--/Carrossel-->
+
+  <!--Cards-->
+
+  
+  <!--/Cards-->
+  <div class="row row-cols-1 row-cols-md-3 mt-5 p-4">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/b6/02/3a/b6023a1eb5ff99434174f421cb42ad18.jpg" class="card-img-top" alt="Albert Eisntein com um cachimbo e ouvindo música com um headphone.">
+        <div class="card-body">
+          <h5 class="card-title">Atualizações do Pop.py</h5>
+          <p2 class="card-text">Dia 26/10/21 é a data com a atualização mais recente do Pop.py Songs.</p2>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://i2.wp.com/nerdinterior.com.br/wp-content/uploads/2016/09/systemofadown-toxicity.jpg?resize=600%2C600" class="card-img-top" alt="Imagem de albúm da banda System Of A Down">
+        <div class="card-body">
+          <h5 class="card-title">Site Oficial da Banda!</h5>
+          <p2 class="card-text">System Of A Down divulga informações em seu próprio site: https://systemofadown.com/tour/</p2>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="data:image/png;base64,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" class="card-img-top" alt="Nota musical.">
+        <div class="card-body">
+          <h5 class="card-title">Break Moment</h5>
+          <p2 class="card-text">A dupla Echos anuncia que fará uma breve pausa em sua carreira.</p2>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="https://img.discogs.com/iGmBWccSa0VdsoSQ_LSeHnCAqyU=/fit-in/600x600/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/L-849742-1475530801-5367.jpeg.jpg" class="card-img-top" alt="Logo da marca Mr.SuicideSheep.">
+        <div class="card-body">
+          <h5 class="card-title">Qualidade comprovada!</h5>
+          <p2 class="card-text">Mr.SuicideSheep é uma marca que fica responsável por classificar quais músicas Indies são boas, por esta razão as músicas que recebem esse "selo" de qualidade são repostadas em seus canais.</p2>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--Footer-->
     <hr>
     <footer>
        <p>Copyright Guilherme Silva Campos &copy 2021</p>
@@ -54,5 +139,12 @@
     </a>
        </div>
     </footer>
+    <!--/Footer-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
   </body>
 </html>

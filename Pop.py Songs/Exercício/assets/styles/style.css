@@ -108,9 +108,8 @@ music {
     font-size: 3vw;
 }
 .socialmedia{
-    width: 30px;
-    height: 30px;
-    padding: 1%;
+    width: 2vw;
+    height: 2vw;
 }
 header {
     display: flex;
