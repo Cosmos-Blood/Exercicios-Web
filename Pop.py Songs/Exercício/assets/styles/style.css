@@ -6,21 +6,21 @@ h1 {
     color: #ffffffe0;
 }
 ol {
-    color: #ff00d4e0;
+    color: #ffffffe0;
 }
 .conteudo{
     padding: 2%;
-    background-color: #3E065F;
+    background-color: #10011a;
     border-top-right-radius: 25%;
     border-bottom-right-radius: 25%;
 }
 .conteudo a{
     padding: 1%;
-    color: #ffae00;
+    color: #ffffffe0;
     text-decoration: none;
 }
 .conteudo a:hover{
-    color: #ffffffe0;
+    color: #ffae00;
     transition-duration: 1.5s;
 }
 
